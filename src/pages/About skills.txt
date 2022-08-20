@@ -1,0 +1,27 @@
+<div className="skill-section">
+        <h2>What am I an expert at?</h2>
+    
+        <div className="skills_data">
+             <div className="skills_container">
+            <div className="skills_names">
+                <span className="skills_name">
+                    Music
+                </span>
+            </div>
+            <div className="skills_bar skills_html"></div>
+            <div>
+                <span className="skills_percentage">95%</span>
+            </div>
+            <div className="skills_name">
+                <span className="skills_name">
+                    Skating
+                </span>
+            </div>
+            <div className="skills_bars skills_lang"></div>
+            <div>
+                <span className="skills_percent">90%</span>
+            </div>
+            
+        </div>
+        </div>
+    </div>

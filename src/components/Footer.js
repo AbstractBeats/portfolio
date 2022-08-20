@@ -7,7 +7,8 @@ function Footer(){
             <i className="ri-instagram-line"></i>
             <i className="ri-mail-line"></i>
     </div>
-    <small className="copy">Just don't steal &copy; </small></footer>)
+    <hr></hr>
+    <small className="copy">Just don't steal everything I've made &copy; </small></footer>)
 }
 
 export default Footer

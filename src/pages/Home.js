@@ -11,7 +11,7 @@ function Home(){
             <Link to="/portfolio"><button>Review my work</button></Link>
         </div>
         <div className="himg">
-            <img src={img1} />
+            <img className="drake" src={img1} alt = "Drake"/>
         </div>
         </div>)
 }

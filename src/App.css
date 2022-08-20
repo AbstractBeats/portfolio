@@ -2,14 +2,27 @@
   display:flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 3cm;
+  padding-bottom: .5cm;
+  padding-right: 15cm;
+  padding-left: 15cm;
+  font-size: 45px;
 }
 
 .copy{
     display: flex;
     align-items: center;
+    padding-bottom: 3cm;
+    padding-right: 15cm;
+    padding-left: 17cm;
+    font-size: 25px;
 }
-
+hr{
+  margin-left:10cm;
+  margin-right:10cm;
+  margin-top: 1cm;
+  margin-bottom: .5cm;
+  text-align: center;
+}
 footer{
   background-color: darkblue;
   color: white;
@@ -21,11 +34,11 @@ footer{
   width:100%;
   min-height: 80vh;
   padding: 5rem 3rem;
-  display: flex;
+  display:inline-block;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   margin-top: 1cm;
 }
 
@@ -33,12 +46,14 @@ footer{
   font-size: 4rem;
   font-weight: 600;
   color:aqua;
+  display: flex;
 }
 
 .intro h2{
   font-size:3rem;
   font-weight: 600;
   color: aquamarine;
+  display: flex;
 }
 
 .intro h3{
@@ -46,6 +61,7 @@ footer{
   font-size: 1.1rem;
   letter-spacing:13px;
   color:darkcyan;
+  display: flex;
 }
 
 .intro button{
@@ -54,9 +70,117 @@ footer{
   background-color: darkmagenta;
   color:white;
   border:none;
+  display: flex;
   border-radius: 5px;
 }
 
 .himg{
   width:300px;
+  display: flex;
+}
+
+.skill-section{
+  height:50vh;
+  width:100%;
+  padding: 2% 3%;
+  margin-top:3cm;
+}
+
+.skill-section h2{
+  margin-bottom: 2rem;
+}
+
+.skills_data{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-weight: 600;
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: .3rem;
+  box-shadow: 0 4px 25px rgba(35, 72, 94, 0.096);
+  width: 50%;
+}
+
+.skills_names{
+  display: flex;
+  align-items: center;
+}
+
+.skills_bar{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: turquoise;
+  height:.5rem;
+  border-radius: .5rem;
+}
+
+.skills_html{
+  width:95%;
+}
+
+.skills_lang{
+  width: 90%;
+}
+
+.about{
+  text-align: center;
+  display:block;
+}
+
+.aimg{
+  margin-left: 5cm;
+  border-radius: 5cm;
+  align-items: center;
+}
+
+.IF{
+  border-radius: 12px;
+  display:inline-flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+
+#about{
+  margin-left: 5cm;
+  margin-right: 5cm;
+}
+
+#about h3{
+  margin-top: 2cm;
+}
+
+.bz{
+  margin-left: .5cm;
+  margin-top: .5cm;
+}
+
+.Fnf{
+  margin-left: 10cm;
+  margin-right:10cm;
+}
+
+.texto{
+  margin-top: 1.5cm;
+  padding-left: 5cm;
+  padding-right: 5cm;
+  border: 1px;
+  text-align:justify;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    font-size: small;
+  }
+}
+
+.form{
+  padding: 6rem 0;
+  align-items: center;
+}
+
+.input{
+  width:60%
 }
