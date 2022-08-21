@@ -184,3 +184,23 @@ footer{
 .input{
   width:60%
 }
+
+.Flexy{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 4.5cm;
+  margin-right:6cm;
+}
+
+.card{
+  width:30%;
+  margin-top: .5cm;
+}
+
+.tezt{
+  text-align: center;
+  margin-top: .5cm;
+}

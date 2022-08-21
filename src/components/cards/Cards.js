@@ -28,7 +28,7 @@ function Cards(){
             link:"",
         }
     })
-    return(<div>
+    return(<div className="Flexy">
         <Card title = {cState.T1.title} image = {cState.T1.image} link = ""/>
         <Card title = {cState.T2.title} image = {cState.T2.image} link = ""/>
         <Card title = {cState.T3.title} image = {cState.T3.image} link = ""/>
